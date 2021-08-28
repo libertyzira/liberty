@@ -1,0 +1,253 @@
+body { text-align: center;
+    margin: 0;
+}
+
+hr {
+   background-color: white;
+   border-width: 5px;
+   width: 100px;
+border-style: dotted none none;
+border-color: gray;
+}
+
+h1{
+   font-size: 3.13rem;
+   font-family: cursive;
+}
+h3 {
+   color: #66BFBF;
+}
+
+.top-container {
+   position: relative;
+   background-color: #f0f8ff;
+   height: 80vh; 
+}
+
+.top-images
+{
+  
+   width: 160px;
+}
+
+.up-image
+{
+
+   position: absolute;
+   right: 300px;
+   top: 10px;
+}
+
+.profile
+{
+   position: absolute;
+   top: 120px;
+   right: 40%;
+}
+
+/* #profile-picture */
+#profile-picture
+{
+border-radius: 100px;
+}
+
+.down-image
+{
+  
+   position: absolute;
+   left: 250px;
+   bottom: 50px;
+}
+
+.bio-section
+{
+   font-size: 1.5rem;
+   padding: 3rem 10rem;
+}
+.date
+{
+   float: left;
+}
+
+.work
+{
+   text-align: left;
+   margin-bottom: 3rem;
+}
+.a-haighai
+{
+   text-decoration: none;
+}
+.exp-header
+{
+   text-align: center;
+   padding-top: 3rem;
+}
+
+.date
+{
+   width: 30%;
+   float: left;
+   margin-left: 8rem;
+   text-align: right;
+
+}
+
+.exp-center
+{
+   margin-left: 2.8rem;
+
+}
+
+.experience
+{
+   width: 40%;
+   margin-left: 48%;
+   margin-top: 2.5rem;
+}
+ul li
+{
+   list-style-type: none;
+}
+
+.cleared-up
+{
+   clear: both;
+}
+.top-row{
+   width: 50%;
+   margin: 3rem auto;
+   line-height: 2;
+}
+
+.bottom-row
+{
+   width: 50%;
+   margin: 3rem auto;
+   line-height: 2;
+}
+.skills-img
+{
+   width: 140px;
+   border-radius: 100%;
+   float: left;
+}
+.skills-img-2
+{
+   width: 140px;
+   border-radius: 100%;
+   float: right;
+}
+.about
+{
+   border: 2px solid black;
+ text-align: justify;
+   margin: 0 19.5% 0;
+   padding: 5px;
+   
+}
+.skills-para
+{
+   text-align: left;
+   padding-left: 12rem;
+}
+
+.skills-para-2
+{
+   text-align: left;
+   padding-right: 12rem;
+}
+.skills-title
+{
+   text-align: left;
+}
+.padded
+{
+   padding-left: 12rem;
+}
+
+.contact
+{
+   margin-bottom: 3rem;
+}
+
+button
+{
+   background-color: #3498db;
+   color: #fff;
+   padding: 1rem 2rem;
+   border-radius: 16px;
+   font-size: 1.5rem;
+   margin-top: 3rem;
+}
+botton:hover
+{
+   background-color: #3cb0fd;
+}
+footer
+{
+   background-color: #1dd1a1;
+   padding: 3rem;
+}
+.a-ancho
+{
+   color: #01a3a4;
+   text-decoration: none;
+   margin: 0 2.5rem;
+}
+.a-ancho:hover
+{
+   color: #fff;
+}
+.copyright
+{
+  color: #fff; 
+margin-top: 2rem;
+}
+
+
+@media only screen and (max-width: 768px){
+
+.top-images{
+   display: none;
+}
+h1{
+   font-size: 2rem
+   ;
+}
+.profile{
+   position: static;
+   margin: auto;
+   padding-top: 5rem;
+   
+}
+
+.top-container
+{
+   height: 60vh;
+}
+
+.bio-section{
+   padding: 1rem;
+}
+.about {
+   
+   margin: 1rem;
+}
+
+.skills-img, .skills-img-2 {
+   width: 100%;
+}
+
+.padded {
+   padding: 0;
+}
+.skills-para, .skills-para-2 {
+   padding: 0;
+}
+
+footer {
+   padding: 2rem;
+}
+
+}
